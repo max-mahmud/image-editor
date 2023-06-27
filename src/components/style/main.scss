@@ -16,7 +16,7 @@
             padding-bottom: 15px;
             h2 {
                 text-transform: uppercase;
-                color: #e52fcf;
+                color: #0b55c4;
             }
         }
         .card_body {
@@ -30,7 +30,7 @@
                         margin-left: 5px;
                     }
                     button {
-                        background-color: rgb(242,53,85);
+                        background-color: rgb(212, 9, 9);
                         padding: 8px;
                         border-radius: 3px;
                         outline: none;
@@ -59,7 +59,7 @@
                         grid-template-columns: repeat(2, 1fr);
                         grid-gap: 8px;
                         button.active {
-                            background-color: rgb(84, 93, 216);
+                            background-color: rgb(211, 118, 12);
                             color: #fff;
                         }
                         button {
@@ -99,13 +99,18 @@
                             display: grid;
                             grid-template-columns: repeat(4, 1fr);
                             grid-gap: 5px;
+                            transition: all 0.3s;
                             div {
-                                border: 1px solid rgb(179, 194, 194);
+                                border: 1px solid rgba(3, 194, 194, 0.514);
                                 padding: 8px 5px;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 cursor: pointer;
+                            }
+                            :hover{
+                                background-color: #1e3bbd;
+                                color: #f0f0f0;
                             }
                         }
                     }
